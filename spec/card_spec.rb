@@ -14,5 +14,6 @@ describe Card do
     it "has a value" do
       card.value.should eq(:ten)
     end
+    #We tested for a few more things - making sure you can get blackjack value, testing for ace-related errors
   end
 end
